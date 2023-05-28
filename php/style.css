@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+}
+div.container{
+    color: black;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5%;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    width: 800px;
+    height: 500px;
+    transition: ease 0.5s;
+
+
+}
+div.container:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    border: 2px solid pink;
+}
+
+div.textarea{
+    display: flex;
+    justify-content: space-around;
+}
+div.textkunci{
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+div.textpesan{
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+input.tombol{
+    margin-top: 25px;
+    font-size: 25px;
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 5%;
+}
+input.tombol:hover{
+    color:white;
+    border: black;
+    background-color: black;
+}
+
+
